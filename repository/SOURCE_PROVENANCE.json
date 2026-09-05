@@ -1,0 +1,66 @@
+{
+  "original_metadata_protocol_sha256": "3ccfceea856d799b5a5020b0115ef10cf20d202eebbe2c8b319f883f5076c081",
+  "sources": [
+    {
+      "public_file": "02_experiments/analysis/analyze_reviewer_experiments_v13.py",
+      "source_sha256": "89300c1bc614fe6d51d4802b1f6b57097fea0bda65cfc3422120f4e5e6097aa0",
+      "source_file": "02_experiments/analysis/analyze_reviewer_experiments_v13.py"
+    },
+    {
+      "public_file": "02_experiments/analysis/audit_rank_gaps_v14.py",
+      "source_sha256": "a7393674b9d80d336fafc8238b047e8ac002e92e70a5b4010e9109b6b971b455",
+      "source_file": "02_experiments/analysis/audit_rank_gaps_v14.py"
+    },
+    {
+      "public_file": "02_experiments/analysis/audit_tongji_exception_v14.py",
+      "source_sha256": "65cf2d45e6b995ccbb4ced7754e23fa66becba4b2548826e8286bb480589d4db",
+      "source_file": "02_experiments/analysis/audit_tongji_exception_v14.py"
+    },
+    {
+      "public_file": "02_experiments/analysis/independent_metrics.py",
+      "source_sha256": "028b0c3f74ce383a1caf4fbbb0984fa26a4081cc343c6ae46aa5cdd87d464ff7",
+      "source_file": "02_experiments/analysis/validate_reviewer_experiments_v13.py"
+    },
+    {
+      "public_file": "02_experiments/analysis/run_controlled_refits_v13.py",
+      "source_sha256": "12f7088fe6c6d129c56171d5107c0ebb9ccb7f6c5aef2e913878c8a5ccbf09b7",
+      "source_file": "02_experiments/analysis/run_controlled_refits_v13.py"
+    },
+    {
+      "public_file": "02_experiments/analysis/run_metadata_ablation_v14.py",
+      "source_sha256": "54c4240735282ce2cf06df98666f78a48fafda6599aa38c1e434244ad8d40264",
+      "source_file": "02_experiments/analysis/run_metadata_ablation_v14.py"
+    },
+    {
+      "public_file": "02_experiments/baseline/extract_cycle_features.py",
+      "source_sha256": "25d3d498913407ea6a96764c3297c0efd73a7d5e294cbd9f764e9c2341996c9a",
+      "source_file": "02_experiments/baseline/extract_cycle_features.py"
+    },
+    {
+      "public_file": "02_experiments/data_integrity/audit_isu_contract_coordinates.py",
+      "source_sha256": "fdcc76067a7e87375ebd7495b5dd80d5191e7bae15f804ea41acca88cf2f58bd",
+      "source_file": "02_experiments/data_integrity/audit_isu_contract_coordinates.py"
+    },
+    {
+      "public_file": "06_figures/reviewer_v13_sync/academic_v13.mplstyle",
+      "source_sha256": "63004c566c570d6ea9b9b778cc5e9dba99da5b19bc3b2b914ede73a6b9c751a8",
+      "source_file": "06_figures/reviewer_v13_sync/academic_v13.mplstyle"
+    },
+    {
+      "public_file": "06_figures/reviewer_v13_sync/build_jeet_figures_v13.py",
+      "source_sha256": "ee54ef0e8d65d0e5b088f0f67c9f59c6b0b84424fdb835d0ad8203bf3501d0d9",
+      "source_file": "06_figures/reviewer_v13_sync/build_jeet_figures_v13.py"
+    },
+    {
+      "public_file": "06_figures/reviewer_v14_sync/build_jeet_figures_v14.py",
+      "source_sha256": "6f32af6d7237228c640372df72bc29bf85eae721084fb53f1892c6ca23d9c28b",
+      "source_file": "06_figures/reviewer_v14_sync/build_jeet_figures_v14.py"
+    }
+  ],
+  "notes": [
+    "Public adaptations add explicit input/output paths, fresh-output protection and release checks. Numerical routines and model settings are retained.",
+    "independent_metrics.py contains the independent numerical functions from its listed source; release checks are implemented separately.",
+    "Archived training configurations bind original execution artifacts, not the public adaptations.",
+    "The public metadata protocol is a shortened description with unchanged analysis settings."
+  ]
+}

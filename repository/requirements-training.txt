@@ -1,0 +1,6 @@
+-r requirements.txt
+scikit-learn==1.8.0
+xgboost==3.3.0
+torch==2.11.0
+reformer-pytorch==1.4.4
+psutil==7.2.2
